@@ -1,0 +1,27 @@
+{
+  "raw_total": 66000,
+  "selected": 9000,
+  "privacy_pattern_removed": 1,
+  "duplicate_answer_rows_removed": 18,
+  "retained": 8901,
+  "prompt_groups": 2967,
+  "split_counts": {
+    "test": {
+      "ChatGPT": 446,
+      "Claude": 446,
+      "Gemini": 446
+    },
+    "train": {
+      "ChatGPT": 2076,
+      "Claude": 2076,
+      "Gemini": 2076
+    },
+    "validation": {
+      "ChatGPT": 445,
+      "Claude": 445,
+      "Gemini": 445
+    }
+  },
+  "source_sha256": "ae8acb3e1d529bfa82938da9da4cfed72e34a5fff1bdf7a011a7612a716a3e0b",
+  "identity_mentions": 54
+}

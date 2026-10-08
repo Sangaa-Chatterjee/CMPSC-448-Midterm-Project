@@ -1,0 +1,16 @@
+{
+  "data": "data/txd22.zip",
+  "out": "results_reproduction",
+  "epochs": 5,
+  "max_len": 128,
+  "seeds": [
+    42
+  ],
+  "threads": 4,
+  "python": "3.12.7",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "sklearn": "1.9.1",
+  "device": "CPU"
+}

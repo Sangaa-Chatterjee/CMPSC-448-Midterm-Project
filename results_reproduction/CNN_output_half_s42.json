@@ -1,0 +1,93 @@
+{
+  "name": "CNN_output_half_s42",
+  "model": "CNN",
+  "mode": "output_half",
+  "seed": 42,
+  "best_epoch": 5,
+  "val_macro_f1": 0.7655496308468247,
+  "seconds": 34.83,
+  "parameters": 1004547,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0397580632354941,
+      "val_macro_f1": 0.6396661164913805
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.796520269521935,
+      "val_macro_f1": 0.6386738751184683
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6804444563258667,
+      "val_macro_f1": 0.7274931664057398
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6100591953626104,
+      "val_macro_f1": 0.7430637400405828
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5408244677361725,
+      "val_macro_f1": 0.7655496308468247
+    }
+  ],
+  "accuracy": 0.7675635276532138,
+  "macro_f1": 0.7682596882311303,
+  "per_class": {
+    "ChatGPT": {
+      "precision": 0.7769423558897243,
+      "recall": 0.695067264573991,
+      "f1-score": 0.7337278106508875,
+      "support": 446.0
+    },
+    "Claude": {
+      "precision": 0.8564814814814815,
+      "recall": 0.8295964125560538,
+      "f1-score": 0.8428246013667426,
+      "support": 446.0
+    },
+    "Gemini": {
+      "precision": 0.6844181459566075,
+      "recall": 0.7780269058295964,
+      "f1-score": 0.7282266526757608,
+      "support": 446.0
+    },
+    "accuracy": 0.7675635276532138,
+    "macro avg": {
+      "precision": 0.7726139944426045,
+      "recall": 0.7675635276532137,
+      "f1-score": 0.7682596882311303,
+      "support": 1338.0
+    },
+    "weighted avg": {
+      "precision": 0.7726139944426044,
+      "recall": 0.7675635276532138,
+      "f1-score": 0.7682596882311304,
+      "support": 1338.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      310,
+      29,
+      107
+    ],
+    [
+      23,
+      370,
+      53
+    ],
+    [
+      66,
+      33,
+      347
+    ]
+  ],
+  "accuracy_ci95_group_bootstrap": [
+    0.7451233183856502,
+    0.7900037369207773
+  ]
+}

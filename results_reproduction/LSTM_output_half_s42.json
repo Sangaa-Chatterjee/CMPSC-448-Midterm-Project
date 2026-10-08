@@ -1,0 +1,93 @@
+{
+  "name": "LSTM_output_half_s42",
+  "model": "LSTM",
+  "mode": "output_half",
+  "seed": 42,
+  "best_epoch": 5,
+  "val_macro_f1": 0.708355506904994,
+  "seconds": 45.08,
+  "parameters": 1021571,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0882550315284238,
+      "val_macro_f1": 0.4657074353964868
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9387312718668884,
+      "val_macro_f1": 0.6054356792098273
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7895380443843727,
+      "val_macro_f1": 0.6564229777366978
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6717876775492899,
+      "val_macro_f1": 0.6693461267816235
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6096409689024923,
+      "val_macro_f1": 0.708355506904994
+    }
+  ],
+  "accuracy": 0.7316890881913304,
+  "macro_f1": 0.7328082136309023,
+  "per_class": {
+    "ChatGPT": {
+      "precision": 0.6673469387755102,
+      "recall": 0.7331838565022422,
+      "f1-score": 0.6987179487179487,
+      "support": 446.0
+    },
+    "Claude": {
+      "precision": 0.8690476190476191,
+      "recall": 0.8183856502242153,
+      "f1-score": 0.8429561200923787,
+      "support": 446.0
+    },
+    "Gemini": {
+      "precision": 0.6705607476635514,
+      "recall": 0.6434977578475336,
+      "f1-score": 0.6567505720823799,
+      "support": 446.0
+    },
+    "accuracy": 0.7316890881913304,
+    "macro avg": {
+      "precision": 0.7356517684955602,
+      "recall": 0.7316890881913304,
+      "f1-score": 0.7328082136309023,
+      "support": 1338.0
+    },
+    "weighted avg": {
+      "precision": 0.7356517684955602,
+      "recall": 0.7316890881913304,
+      "f1-score": 0.7328082136309024,
+      "support": 1338.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      327,
+      27,
+      92
+    ],
+    [
+      32,
+      365,
+      49
+    ],
+    [
+      131,
+      28,
+      287
+    ]
+  ],
+  "accuracy_ci95_group_bootstrap": [
+    0.707754110612855,
+    0.7563527653213752
+  ]
+}

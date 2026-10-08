@@ -1,0 +1,7 @@
+{
+  "experiments_verified": 12,
+  "prompt_split_disjoint": true,
+  "balanced_triplets": true,
+  "metrics_recomputed": true,
+  "padding_invariance_CNN_LSTM": true
+}
